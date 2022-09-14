@@ -4,9 +4,9 @@ import smtplib, ssl
 def mail(name,package,version,date):
     port = 465  # For SSL
     smtp_server = "smtp.gmail.com"
-    sender_email = "routeinbeasts@gmail.com"  # Enter your address
-    receiver_email = "gauravsanwal88@gmail.com"  # Enter receiver address
-    password = "ircmwaygpxnyjzsi"
+    sender_email = ""  # Enter your address
+    receiver_email=""  # Enter receiver address
+    password = "" #sender mail password
     message = f"""\
     Subject: Version Changed for app:{name}
     
