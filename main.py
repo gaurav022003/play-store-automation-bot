@@ -24,7 +24,7 @@ def version(driver):
 
 
 package_name=input("enter package name:")
-driver = webdriver.Chrome(executable_path="C:\chromedriver.exe", service=Service(ChromeDriverManager().install()))
+driver = webdriver.Chrome(executable_path="chromedriver.exe", service=Service(ChromeDriverManager().install()))
 driver.get(f"https://play.google.com/store/apps/details?id={package_name}&hl=en_IN&gl=US")
 driver.implicitly_wait(5)
 name,version,date=version(driver)
