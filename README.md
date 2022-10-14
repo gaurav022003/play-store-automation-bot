@@ -1,6 +1,6 @@
 # play-store-automation-bot
 
-**python libraries you have to install**
+**python libraries you have to install**\n
 pymongo
 selenium
 
